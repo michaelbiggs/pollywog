@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug pollywog",
+            "program": "${workspaceFolder:pollywog}/.build/debug/pollywog",
+            "args": [],
+            "cwd": "${workspaceFolder:pollywog}",
+            "preLaunchTask": "swift: Build Debug pollywog"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Release pollywog",
+            "program": "${workspaceFolder:pollywog}/.build/release/pollywog",
+            "args": [],
+            "cwd": "${workspaceFolder:pollywog}",
+            "preLaunchTask": "swift: Build Release pollywog"
+        }
+    ]
+}
