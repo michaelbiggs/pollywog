@@ -33,6 +33,7 @@
 		3A01EDD529CF35350078F5AD /* PollywogEditor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PollywogEditor.entitlements; sourceTree = "<group>"; };
 		3A01EDDA29CF35360078F5AD /* pollywog-editorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pollywog-editorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A01EDDE29CF35360078F5AD /* pollywog_editorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pollywog_editorTests.swift; sourceTree = "<group>"; };
+		3A2D0EE929CF3A14009E0400 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +57,7 @@
 		3A01EDC029CF35350078F5AD = {
 			isa = PBXGroup;
 			children = (
+				3A2D0EE929CF3A14009E0400 /* README.md */,
 				3A01EDCB29CF35350078F5AD /* pollywog-editor */,
 				3A01EDDD29CF35360078F5AD /* pollywog-editorTests */,
 				3A01EDCA29CF35350078F5AD /* Products */,
