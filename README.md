@@ -1,3 +1,0 @@
-# pollywog
-
-Polygonal puzzles
