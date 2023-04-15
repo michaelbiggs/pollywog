@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3AD28E8E29EAF2CE001DB0CB /* PollywogApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD28E8D29EAF2CE001DB0CB /* PollywogApp.swift */; };
+		3AD28E9029EAF2CE001DB0CB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD28E8F29EAF2CE001DB0CB /* ContentView.swift */; };
+		3AD28E9229EAF2CF001DB0CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AD28E9129EAF2CF001DB0CB /* Assets.xcassets */; };
+		3AD28E9529EAF2CF001DB0CB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AD28E9429EAF2CF001DB0CB /* Preview Assets.xcassets */; };
+		3AD28E9F29EAF2CF001DB0CB /* PollywogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD28E9E29EAF2CF001DB0CB /* PollywogTests.swift */; };
+		3AD28EA929EAF2CF001DB0CB /* PollywogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD28EA829EAF2CF001DB0CB /* PollywogUITests.swift */; };
+		3AD28EAB29EAF2CF001DB0CB /* PollywogUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD28EAA29EAF2CF001DB0CB /* PollywogUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3AD28E9B29EAF2CF001DB0CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AD28E8229EAF2CE001DB0CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AD28E8929EAF2CE001DB0CB;
+			remoteInfo = Pollywog;
+		};
+		3AD28EA529EAF2CF001DB0CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AD28E8229EAF2CE001DB0CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AD28E8929EAF2CE001DB0CB;
+			remoteInfo = Pollywog;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3AD28E8A29EAF2CE001DB0CB /* Pollywog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pollywog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AD28E8D29EAF2CE001DB0CB /* PollywogApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PollywogApp.swift; sourceTree = "<group>"; };
+		3AD28E8F29EAF2CE001DB0CB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3AD28E9129EAF2CF001DB0CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3AD28E9429EAF2CF001DB0CB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3AD28E9A29EAF2CF001DB0CB /* PollywogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PollywogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AD28E9E29EAF2CF001DB0CB /* PollywogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PollywogTests.swift; sourceTree = "<group>"; };
+		3AD28EA429EAF2CF001DB0CB /* PollywogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PollywogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AD28EA829EAF2CF001DB0CB /* PollywogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PollywogUITests.swift; sourceTree = "<group>"; };
+		3AD28EAA29EAF2CF001DB0CB /* PollywogUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PollywogUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3AD28E8729EAF2CE001DB0CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AD28E9729EAF2CF001DB0CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AD28EA129EAF2CF001DB0CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3AD28E8129EAF2CE001DB0CB = {
+			isa = PBXGroup;
+			children = (
+				3AD28E8C29EAF2CE001DB0CB /* Pollywog */,
+				3AD28E9D29EAF2CF001DB0CB /* PollywogTests */,
+				3AD28EA729EAF2CF001DB0CB /* PollywogUITests */,
+				3AD28E8B29EAF2CE001DB0CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3AD28E8B29EAF2CE001DB0CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3AD28E8A29EAF2CE001DB0CB /* Pollywog.app */,
+				3AD28E9A29EAF2CF001DB0CB /* PollywogTests.xctest */,
+				3AD28EA429EAF2CF001DB0CB /* PollywogUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3AD28E8C29EAF2CE001DB0CB /* Pollywog */ = {
+			isa = PBXGroup;
+			children = (
+				3AD28E8D29EAF2CE001DB0CB /* PollywogApp.swift */,
+				3AD28E8F29EAF2CE001DB0CB /* ContentView.swift */,
+				3AD28E9129EAF2CF001DB0CB /* Assets.xcassets */,
+				3AD28E9329EAF2CF001DB0CB /* Preview Content */,
+			);
+			path = Pollywog;
+			sourceTree = "<group>";
+		};
+		3AD28E9329EAF2CF001DB0CB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3AD28E9429EAF2CF001DB0CB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3AD28E9D29EAF2CF001DB0CB /* PollywogTests */ = {
+			isa = PBXGroup;
+			children = (
+				3AD28E9E29EAF2CF001DB0CB /* PollywogTests.swift */,
+			);
+			path = PollywogTests;
+			sourceTree = "<group>";
+		};
+		3AD28EA729EAF2CF001DB0CB /* PollywogUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3AD28EA829EAF2CF001DB0CB /* PollywogUITests.swift */,
+				3AD28EAA29EAF2CF001DB0CB /* PollywogUITestsLaunchTests.swift */,
+			);
+			path = PollywogUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3AD28E8929EAF2CE001DB0CB /* Pollywog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AD28EAE29EAF2CF001DB0CB /* Build configuration list for PBXNativeTarget "Pollywog" */;
+			buildPhases = (
+				3AD28E8629EAF2CE001DB0CB /* Sources */,
+				3AD28E8729EAF2CE001DB0CB /* Frameworks */,
+				3AD28E8829EAF2CE001DB0CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pollywog;
+			productName = Pollywog;
+			productReference = 3AD28E8A29EAF2CE001DB0CB /* Pollywog.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3AD28E9929EAF2CF001DB0CB /* PollywogTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AD28EB129EAF2CF001DB0CB /* Build configuration list for PBXNativeTarget "PollywogTests" */;
+			buildPhases = (
+				3AD28E9629EAF2CF001DB0CB /* Sources */,
+				3AD28E9729EAF2CF001DB0CB /* Frameworks */,
+				3AD28E9829EAF2CF001DB0CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AD28E9C29EAF2CF001DB0CB /* PBXTargetDependency */,
+			);
+			name = PollywogTests;
+			productName = PollywogTests;
+			productReference = 3AD28E9A29EAF2CF001DB0CB /* PollywogTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3AD28EA329EAF2CF001DB0CB /* PollywogUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AD28EB429EAF2CF001DB0CB /* Build configuration list for PBXNativeTarget "PollywogUITests" */;
+			buildPhases = (
+				3AD28EA029EAF2CF001DB0CB /* Sources */,
+				3AD28EA129EAF2CF001DB0CB /* Frameworks */,
+				3AD28EA229EAF2CF001DB0CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AD28EA629EAF2CF001DB0CB /* PBXTargetDependency */,
+			);
+			name = PollywogUITests;
+			productName = PollywogUITests;
+			productReference = 3AD28EA429EAF2CF001DB0CB /* PollywogUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3AD28E8229EAF2CE001DB0CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					3AD28E8929EAF2CE001DB0CB = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					3AD28E9929EAF2CF001DB0CB = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 3AD28E8929EAF2CE001DB0CB;
+					};
+					3AD28EA329EAF2CF001DB0CB = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 3AD28E8929EAF2CE001DB0CB;
+					};
+				};
+			};
+			buildConfigurationList = 3AD28E8529EAF2CE001DB0CB /* Build configuration list for PBXProject "Pollywog" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3AD28E8129EAF2CE001DB0CB;
+			productRefGroup = 3AD28E8B29EAF2CE001DB0CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3AD28E8929EAF2CE001DB0CB /* Pollywog */,
+				3AD28E9929EAF2CF001DB0CB /* PollywogTests */,
+				3AD28EA329EAF2CF001DB0CB /* PollywogUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3AD28E8829EAF2CE001DB0CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AD28E9529EAF2CF001DB0CB /* Preview Assets.xcassets in Resources */,
+				3AD28E9229EAF2CF001DB0CB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AD28E9829EAF2CF001DB0CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AD28EA229EAF2CF001DB0CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3AD28E8629EAF2CE001DB0CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AD28E9029EAF2CE001DB0CB /* ContentView.swift in Sources */,
+				3AD28E8E29EAF2CE001DB0CB /* PollywogApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AD28E9629EAF2CF001DB0CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AD28E9F29EAF2CF001DB0CB /* PollywogTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AD28EA029EAF2CF001DB0CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AD28EAB29EAF2CF001DB0CB /* PollywogUITestsLaunchTests.swift in Sources */,
+				3AD28EA929EAF2CF001DB0CB /* PollywogUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3AD28E9C29EAF2CF001DB0CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3AD28E8929EAF2CE001DB0CB /* Pollywog */;
+			targetProxy = 3AD28E9B29EAF2CF001DB0CB /* PBXContainerItemProxy */;
+		};
+		3AD28EA629EAF2CF001DB0CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3AD28E8929EAF2CE001DB0CB /* Pollywog */;
+			targetProxy = 3AD28EA529EAF2CF001DB0CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3AD28EAC29EAF2CF001DB0CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3AD28EAD29EAF2CF001DB0CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3AD28EAF29EAF2CF001DB0CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pollywog/Preview Content\"";
+				DEVELOPMENT_TEAM = EN42H3AKW9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.biggs.Pollywog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3AD28EB029EAF2CF001DB0CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pollywog/Preview Content\"";
+				DEVELOPMENT_TEAM = EN42H3AKW9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.biggs.Pollywog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3AD28EB229EAF2CF001DB0CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EN42H3AKW9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.biggs.PollywogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pollywog.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Pollywog";
+			};
+			name = Debug;
+		};
+		3AD28EB329EAF2CF001DB0CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EN42H3AKW9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.biggs.PollywogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pollywog.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Pollywog";
+			};
+			name = Release;
+		};
+		3AD28EB529EAF2CF001DB0CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EN42H3AKW9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.biggs.PollywogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Pollywog;
+			};
+			name = Debug;
+		};
+		3AD28EB629EAF2CF001DB0CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EN42H3AKW9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.biggs.PollywogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Pollywog;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3AD28E8529EAF2CE001DB0CB /* Build configuration list for PBXProject "Pollywog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AD28EAC29EAF2CF001DB0CB /* Debug */,
+				3AD28EAD29EAF2CF001DB0CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AD28EAE29EAF2CF001DB0CB /* Build configuration list for PBXNativeTarget "Pollywog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AD28EAF29EAF2CF001DB0CB /* Debug */,
+				3AD28EB029EAF2CF001DB0CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AD28EB129EAF2CF001DB0CB /* Build configuration list for PBXNativeTarget "PollywogTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AD28EB229EAF2CF001DB0CB /* Debug */,
+				3AD28EB329EAF2CF001DB0CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AD28EB429EAF2CF001DB0CB /* Build configuration list for PBXNativeTarget "PollywogUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AD28EB529EAF2CF001DB0CB /* Debug */,
+				3AD28EB629EAF2CF001DB0CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3AD28E8229EAF2CE001DB0CB /* Project object */;
+}
